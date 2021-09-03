@@ -1,0 +1,80 @@
+
+	a {
+		text-decoration: none; 
+		color: white;
+		background-color: lightblue;
+	}
+	a:hover {
+		background-color: blue;
+	}
+	body {
+	    margin: 0;
+        background-color: hsl(0, 0%, 15%);
+        color: hsl(60, 65%, 60%); 
+        font-weight: bold;
+        background-image: url('https://cms.kotaku.co.uk/wp-content/uploads/2019/04/index-hero-og.jpg');
+        background-repeat: 0;
+        background-size: 100%
+    }
+	header {
+		font-size: 25px;
+		background-color: #edd812;
+background-image: linear-gradient(315deg, #edd812 0%, #766a65 74%);
+        padding: 2.5px;
+        font-weight: bold;
+        color: hsl(60, 65%, 60%);
+        }
+    p {
+    	padding: 5px;
+    }    
+    .main-section {
+    	padding-bottom: 500px;
+    	margin-left: 25%;
+    }
+    .navlink:hover {
+    	background-image: linear-gradient(315deg, #edd812 0%, #766a65 74%);
+        padding: 2.5px;
+    }
+    #navbar {
+    	position: fixed;
+    	display: block;
+    	top: 0;
+    	left: 0;
+    	height: 100%;
+    	background-color: #63d471;
+background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+width: 25%;
+    }
+    .nav-link {
+    	display: block;
+    	top: 0;
+    	right: 0;
+    	margin: 5px;
+    	padding: 5px;
+    	margin-left: -50px;
+    	margin: 0;
+    	text-decoration: none;
+    	font-size: 20px;
+    	background-color: #63d471;
+        background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+        display: block;
+        color: white;
+    	top: 0;
+    	left: 0;
+    	font-weight: bold;
+    }
+    #links {
+    	list-style-type: none;
+    	 margin: 0;
+    padding: 0;
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    }
+    @media (max-width: 800px) {
+    	body {
+    		background-color: #bbf0f3;
+            background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+    	}
+    }
